@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("rocknrollbackground.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+body > p {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+header h1 {
+    color: darkred;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+}
+
+.score {
+    margin: 100px auto;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
+    width: 200px;
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: 'Monoton', cursive;
+    position: relative;
+}
+
+.ribbon {
+    background: black;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 2px 10px;
+    font-family: 'Monoton', cursive;
+    border-radius: 6px;
+
+}
+
+#label-player {
+    position: absolute;
+    top: 30px;
+    left: -45px;
+}
+
+#label-ai {
+    position: absolute;
+    top: 30px;
+    right: -55px;
+}
+
+.game-play > p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    /*font-family: cursive;*/
+
+
+}
+
+.game-icons {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.icon img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.icon :hover {
+    cursor: pointer;
+}
+

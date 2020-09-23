@@ -4,15 +4,41 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Rock Paper Scissors</title>
+  <title>Rock'n Paper Scissors</title>
   <meta name="description" content="A Game">
   <meta name="author" content="JohnHernandez">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <!--heading-->
+  <header>
+    <h1><img src="images/tinyguitara.png"> Rock'n - Paper - Scissors <img src="images/tinyguitara.png"></h1>
+  </header>
+  <!--score section-->
+  <div class="score">
+    <div id="label-player" class="ribbon">Player</div>
+    <div id="label-ai" class="ribbon">AI-Player</div>
+    <span id="player-score">0</span>/<span id="ai-score">0</span>
+  </div>
+  <!--game play area-->
+  <div class="game-play">
+    <p>Let's Rock'n Roll!</p>
+  </div>
+  <div class="game-icons">
+    <div class="icon" id="rk">
+      <img src="images/rock2.png" alt="Rock">
+    </div>
+    <div class="icon" id="pp">
+      <img src="images/paper2.png" alt="Paper">
+    </div>
+    <div class="icon" id="sc">
+      <img src="images/scissors2.png" alt="Scissors">
+    </div>
+  </div>
+  <p id="start-commen">Click - An - Icon - to - Play!</p>
+  <script src="js/app.js" charset="utf-8"></script>
 </body>
 </html>
